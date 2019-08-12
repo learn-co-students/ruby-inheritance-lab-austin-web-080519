@@ -27,6 +27,7 @@ jim.last_name = "Harper"
 
 steve.learn(some_knowledge)
 steve.learn(some_knowledge)
+steve.learn(some_knowledge)
 
 hemesh = Student.new
 hemesh.first_name = "Hemesh"
@@ -35,5 +36,6 @@ hemesh.learn(some_knowledge)
 hemesh.learn(some_knowledge)
 
 puts "Hemesh has learned: #{hemesh.knowledge}"
+puts "Steve has learned: #{steve.knowledge)"
 #puts steve.knowledge
 #puts jim.knowledge
