@@ -9,8 +9,4 @@ class Student < User
         @knowledge << newknowledge
     end
 
-    def knowledge
-        @knowledge
-    end
-
 end
