@@ -18,3 +18,24 @@ some_knowledge = avi.teach
 steve.learn(some_knowledge)
 
 puts "Steve just learned this important knowledge: '#{steve.knowledge.first}' from Avi"
+
+jim = User.new
+jim.first_name = "Jim"
+jim.last_name = "Harper"
+
+#jim.learn(some_knowledge) #gets undefined method learn error
+
+steve.learn(some_knowledge)
+steve.learn(some_knowledge)
+steve.learn(some_knowledge)
+
+hemesh = Student.new
+hemesh.first_name = "Hemesh"
+hemesh.last_name = "Patel"
+hemesh.learn(some_knowledge)
+hemesh.learn(some_knowledge)
+
+puts "Hemesh has learned: #{hemesh.knowledge}"
+puts "Steve has learned: #{steve.knowledge)"
+#puts steve.knowledge
+#puts jim.knowledge
